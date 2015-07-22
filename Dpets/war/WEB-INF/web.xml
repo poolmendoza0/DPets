@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+  	<servlet>
+		<servlet-name>CrearPersona</servlet-name>
+		<servlet-class>Servlets.CrearPersona</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CrearPersona</servlet-name>
+		<url-pattern>/crearPersona</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveTrabajador</servlet-name>
+		<servlet-class>Servlets.SaveTrabajador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveTrabajador</servlet-name>
+		<url-pattern>/savetrabajador</url-pattern>
+	</servlet-mapping>
+
+ 	<servlet>
+		<servlet-name>ProductoSave</servlet-name>
+		<servlet-class>Servlets.ProductoSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductoSave</servlet-name>
+		<url-pattern>/productosave</url-pattern>
+	</servlet-mapping>	
+	
+ 	<servlet>
+		<servlet-name>ProductoBorrar</servlet-name>
+		<servlet-class>Servlets.ProductoBorrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductoBorrar</servlet-name>
+		<url-pattern>/productoborrar</url-pattern>
+	</servlet-mapping>	
+
+
+	<servlet>
+		<servlet-name>entrarComprobar</servlet-name>
+		<servlet-class>Servlets.entrarComprobar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>entrarComprobar</servlet-name>
+		<url-pattern>/entrarcomprobar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>SaveMascota</servlet-name>
+		<servlet-class>Servlets.SaveMascota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveMascota</servlet-name>
+		<url-pattern>/saveMascota</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>BorrarMascota</servlet-name>
+		<servlet-class>Servlets.BorrarMascota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarMascota</servlet-name>
+		<url-pattern>/borrarmascota</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>medicinaSave</servlet-name>
+		<servlet-class>Servlets.medicinaSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>medicinaSave</servlet-name>
+		<url-pattern>/medicinasave</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>
+		<servlet-name>medicinaBorrar</servlet-name>
+		<servlet-class>Servlets.medicinaBorrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>medicinaBorrar</servlet-name>
+		<url-pattern>/medicinaborrar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sugerenciaSave</servlet-name>
+		<servlet-class>Servlets.sugerenciaSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sugerenciaSave</servlet-name>
+		<url-pattern>/sugerenciasave</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sugerenciaBorrar</servlet-name>
+		<servlet-class>Servlets.sugerenciaBorrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sugerenciaBorrar</servlet-name>
+		<url-pattern>/sugerenciaborrar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>publicacionSave</servlet-name>
+		<servlet-class>Servlets.publicacionSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>publicacionSave</servlet-name>
+		<url-pattern>/publicacionsave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>publicacionBorrar</servlet-name>
+		<servlet-class>Servlets.publicacionBorrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>publicacionBorrar</servlet-name>
+		<url-pattern>/publicacionborrar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveConsulta</servlet-name>
+		<servlet-class>Servlets.SaveConsulta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveConsulta</servlet-name>
+		<url-pattern>/saveConsulta</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarConsulta</servlet-name>
+		<servlet-class>Servlets.BorrarConsulta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarConsulta</servlet-name>
+		<url-pattern>/borrarConsulta</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>SaveAdopcion</servlet-name>
+		<servlet-class>Servlets.SaveAdopcion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveAdopcion</servlet-name>
+		<url-pattern>/saveAdopcion</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>BorrarAdopcion</servlet-name>
+		<servlet-class>Servlets.BorrarAdopcion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarAdopcion</servlet-name>
+		<url-pattern>/borrarAdopcion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Controlador</servlet-name>
+		<servlet-class>epis.unsa.Controlador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Controlador</servlet-name>
+		<url-pattern>/controlador</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SaveHistoria</servlet-name>
+		<servlet-class>Servlets.SaveHistoria</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveHistoria</servlet-name>
+		<url-pattern>/saveHistoria</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>ControladorOtros</servlet-name>
+		<servlet-class>epis.unsa.ControladorOtros</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControladorOtros</servlet-name>
+		<url-pattern>/controladorOtros</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>ControladorExtra</servlet-name>
+		<servlet-class>epis.unsa.ControladorExtra</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControladorExtra</servlet-name>
+		<url-pattern>/controladorExtra</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ControladorUsuario</servlet-name>
+		<servlet-class>epis.unsa.ControladorUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControladorUsuario</servlet-name>
+		<url-pattern>/controladorUsuario</url-pattern>
+	</servlet-mapping>
+		
+		
+	<servlet>
+		<servlet-name>Recuperar</servlet-name>
+		<servlet-class>Servlets.Recuperar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Recuperar</servlet-name>
+		<url-pattern>/recuperar</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>cambiarContrasenia</servlet-name>
+		<servlet-class>Servlets.cambiarContrasenia</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cambiarContrasenia</servlet-name>
+		<url-pattern>/cambiarcontrasenia</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>BorrarTrabajador</servlet-name>
+		<servlet-class>Servlets.BorrarTrabajador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarTrabajador</servlet-name>
+		<url-pattern>/borrarTrabajador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>actualizarDatos</servlet-name>
+		<servlet-class>Servlets.actualizarDatos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>actualizarDatos</servlet-name>
+		<url-pattern>/actualizardatos</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarUsuario</servlet-name>
+		<servlet-class>Servlets.BorrarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarUsuario</servlet-name>
+		<url-pattern>/borrarUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+</web-app>

@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image:
+		url("http://zooticias.com/wp-content/uploads/2011/12/Fondo-navidad-fondos-de-pantalla-gratis-perro-y-gatos.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0;
+	padding: 0PX;
+	margin: 0px;
+}
+
+a{
+	color: white;
+}
+
+#iniciar{
+	float: right;
+	margin: right;
+}
+
+#seleccionar {
+	margin: auto;
+	width: 1250px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+header {
+	background-color: #44b970;
+	color: white;
+	
+	padding: 5px;
+}
+
+nav{
+	line-height: 30px;
+	color: white;
+	background-color: #44b970;
+	height: 900px;
+	width: 100px;
+	float: left;
+	padding: 5px;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a {
+	background-color: #44b970;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav li a:hover {
+	background-color: #A9A9A9;
+}
+
+.nav>li {
+	float: left;
+}
+
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover>ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -280px;
+	top: 0px;
+}
+
+section {
+	width: 500px;
+	float: left;
+	padding: 10px;
+}
+
+footer#izq{
+	aling: right;
+}
+
+footer {
+	background-color: #44b970;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
